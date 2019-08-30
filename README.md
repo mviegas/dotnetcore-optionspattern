@@ -2,7 +2,7 @@
 
 Some examples about the options pattern usage with .NET Core
 
-## Create a simeple POCO class to bind the settings file
+## Create a simple POCO class to bind the settings file
 
 That's self-explanatory :)
 
