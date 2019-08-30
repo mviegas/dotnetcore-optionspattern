@@ -13,7 +13,7 @@ We can bind the configuration file to our class in a couple of ways:
 ##### With the AddOptions method. It returns an ``OptionsBuilder``. This might be useful if you want to add some more configuration after configuring the binding.
 ``services.AddOptions<AppSettings>().Bind(Configuration);``
 
-##### With the Configure method returns a ``IServiceCollection``.
+##### With the Configure method. It returns a ``IServiceCollection``.
 ``services.Configure<AppSettings>(Configuration);``
 
 ## Inject the IOptions<T> wherever you want to access it
